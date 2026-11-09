@@ -1,14 +1,14 @@
 class Claudodex < Formula
   desc "Claude Code routed through your OpenAI Codex subscription"
   homepage "https://github.com/bassner/claudodex"
-  url "https://github.com/bassner/claudodex/releases/download/v0.5.8/claudodex-0.5.8-source.tar.gz"
-  version "0.5.8"
-  sha256 "7d934a8c766b3e56ad9e4c49d26c409898fda82b72ef7d705ba9b07ee32a2f62"
+  url "https://github.com/bassner/claudodex/releases/download/v0.5.9/claudodex-0.5.9-source.tar.gz"
+  version "0.5.9"
+  sha256 "62dfe22040a1f6b4e54e60954028e8fb64b0f32c2351d3bb6ebc505647a01cf5"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/bassner/claudodex/releases/download/v0.5.8"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "0b429c008ba69690271ac81967cbe8d6b9a40567cb00fc52bceb376a16f73443"
+    root_url "https://github.com/bassner/claudodex/releases/download/v0.5.9"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "6e865eb7b22e830ae4d8bf5e4c80e50131234d3790130ca40e2b75a67b693969"
   end
 
   depends_on "go" => :build
